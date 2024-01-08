@@ -1,0 +1,37 @@
+.navbar-desktop {
+    display: block;
+}
+
+@media (max-width: 550px) {
+    .navbar-desktop {
+        display: none;
+    }
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.links-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.links-wrapper > a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    transition: all 0.4s ease;
+}
+
+.links-wrapper > a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.navbar-wrapper .logo {
+    width: 50px;
+}

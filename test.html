@@ -1,0 +1,493 @@
+<!-- Css for slider start -->
+<style>
+  .mySlides {
+    display: none;
+  }
+  /* Css for main wrapper start */
+  #slidecontainer1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border: 3px solid transparent;
+  }
+  /* Css for main wrapper end */
+  /* Css for Next & previous buttons starts*/
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #6ea6ff;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color: #0f6fff;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Css for Next & previous buttons end*/
+  /* Css for content area starts*/
+  .section-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  .text-block {
+    background: #0530ad;
+    height: auto;
+    padding: 5% 10%;
+    color: #fff;
+  }
+  #slidecontainer1 div.text-block {
+    background: #0530ad;
+    height: auto;
+    padding: 1% 1%;
+    color: #fff;
+  }
+  .text-block.blue-bg {
+    background: #0530ad;
+    color: #fff;
+  }
+  .text-block.white-bg {
+    background: #0f6fff;
+    color: #fff;
+  }
+  .text-block h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .slideshow-container
+    .mySlides
+    .text-block
+    ul:not([class*="list-unstyled"]):not([class*="list-inline"])
+    > li::before {
+    content: none !important;
+  }
+  .slideshow-container .mySlides .text-block ul li {
+    padding-left: 0px !important;
+  }
+  .slideshow-container .mySlides .text-block ul li i {
+    margin: -10px 10px 0 0;
+  }
+  .image-block {
+    margin-top: 40px;
+    display: block;
+  }
+  #slidecontainer1 div.row {
+    background-color: #fff;
+    color: #000;
+    min-height: 260px;
+    padding: 5% 5% 0 5%;
+  }
+  #slidecontainer1 div.text-block {
+    min-height: 330px;
+  }
+  /* Css for content area end*/
+  /* Css for the dots/bullets/indicators starts */
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+    border: 1px solid transparent;
+  }
+  .active,
+  .dot:hover {
+    background-color: #0f6fff;
+  }
+  /* Css for the dots/bullets/indicators end */
+  /* Css for next & previous buttons show hide as per slides starts */
+  .link_show {
+    visibility: visible;
+  }
+  .link_hide {
+    visibility: hidden;
+    transition: none;
+  }
+  /* Css for next & previous buttons show hide as per slides end */
+  /* Css for on smaller screens starts*/
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .text-block {
+      padding: 5% 12%;
+    }
+  }
+
+  @media (max-width: 550px) {
+      .product-lead-flex-wrapper {
+          flex-direction: column;
+      }
+       
+  }
+  /* Css for on smaller screens end*/
+</style>
+<!-- Css for slider end-->
+<!-- HTML structure for slider start -->
+
+<div id="slidecontainer1" class="slideshow-container">
+  
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center;"
+        >
+          <img
+            alt=""
+            src="assets/JYQGYGKZWQPJ3R2R/instagram%20case-1.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              In March 2010, a new application, Burbn, was launched as a rival to the popular Foursquare app. It offered a few added features to stand out amidst other location-based applications being offered at the time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/PZNJZJVPQXQZ4BVE/instagram%20case-2.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              Despite exhibiting moderate user growth, it soon became apparent that the app's complexity, fueled by its additional features, was overwhelming for users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/ZKXJKJRQNXMQRX7J/instagram%20case-3.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              The founders decided to analyze their user’s engagement with the application to better understand how their product was being used.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/XVQEVEPEWDGVPKND/instagram%20case-4.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              Upon examining the engagement metrics, the founders observed a surprising trend: the primary feature, location check-in, was largely ignored. Instead, users were predominantly using the photo-sharing feature, originally added as one of many unique features to the app. The founders knew something needed to change if they were going to build a successful product for their users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%;
+        gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/WWNDWDZDGMNY66RM/instagram%20case-5.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              Recognizing this opportunity, the founders conducted an extensive analysis of prevailing photography apps, notably Hipstamatic and Facebook. While Hipstamatic boasted many users and great functionality, it lacked easy photo-sharing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%;
+        gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/MKDZKXVZQWNJE2E6/instagram%20case-6.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              Conversely, Facebook's photo-sharing feature on its iPhone app was lagging in performance during that period. Guided by these insights and their users' trends, the founders decided to pivot, concentrating solely on photo-sharing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/NKGEKRDEWJKDYM55/instagram%20case-7.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              Believing they could carve a niche in the market with a user-friendly photo-sharing app, they developed a robust photo-sharing infrastructure and eliminated almost every other other feature from the application. Rebranded as Instagram, the streamlined app was launched in October that year.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carouselSlides">
+    <div class="text-block">
+      <span class="section-heading"></span>
+      <div
+        class="row product-lead-flex-wrapper"
+        style="display: flex; justify-content: center; align-content: center; padding-bottom: 5%; gap: 2rem;"
+      >
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            alt=""
+            src="assets/EKXQKMJQWJJMBR6P/instagram%20case-8.png"
+            style="
+              width: 100%;
+              max-width: 220px !important;
+              display: inline-block;
+              vertical-align: middle;
+            "
+          />
+        </div>
+        <div style="display: flex; padding-left: 0px !important; flex: 1;">
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <p style="padding-bottom: 0px !important;">
+              The new application was a huge success. Within two months, Instagram amassed an impressive one million registered users and continued to grow exponentially. Barely two years into its remarkable journey, Instagram was acquired by Facebook for a whopping one billion dollars.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <!—Next Previous button HTML structure start -->
+  <a class="prev link_show" onclick="MoveSlides(1, -1)" id="prev">&#10094;</a>
+  <a class="next link_show" onclick="MoveSlides(1, 1)" id="next">&#10095;</a>
+  <!—Next Previous button HTML structure end -->
+  <br />
+  <!-- HTML structure for the dots/bullets/indicators start -->
+  <div style="text-align: center">
+    <span class="dot" onclick="VisibleSlide(1, 1)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 2)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 3)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 4)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 5)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 6)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 7)"></span>
+    <span class="dot" onclick="VisibleSlide(1, 8)"></span>
+  </div>
+  <!-- HTML structure for the dots/bullets/indicators end -->
+</div>
+<p>&nbsp;</p>
+<!-- HTML structure for slider end -->
+<!-- JavaScript structure for slider start -->
+<script>
+  function MoveSlides(m, n) {
+    if (sliderIndex != m) {
+      sliderIndex = m;
+      var myslide_parent1 = document.getElementById("slidecontainer" + m);
+      var slides1 = myslide_parent1.getElementsByClassName("carouselSlides");
+      for (i = 0; i < slides1.length; i++) {
+        if (slides1[i].style.display == "block") {
+          carouselIndex = i + 1;
+          //return false;
+        }
+      }
+    }
+    carouselIndex += n;
+    DisplaySlides(m, carouselIndex);
+  }
+  function VisibleSlide(m, n) {
+    carouselIndex = n;
+    DisplaySlides(m, carouselIndex);
+  }
+  function DisplaySlides(m, n) {
+    //alert(m +" ::: "+n);
+    var i;
+    var myslide_parent = document.getElementById("slidecontainer" + m);
+    var slides = myslide_parent.getElementsByClassName("carouselSlides");
+    var dots = myslide_parent.getElementsByClassName("dot");
+    if (n >= slides.length) {
+      carouselIndex = slides.length;
+      myslide_parent.getElementsByClassName("next")[0].className +=
+        " link_hide";
+    } else {
+      myslide_parent.getElementsByClassName("next")[0].className =
+        myslide_parent
+          .getElementsByClassName("next")[0]
+          .className.replace("link_hide", "");
+    }
+    if (n <= 1) {
+      carouselIndex = 1;
+      myslide_parent.getElementsByClassName("prev")[0].className +=
+        " link_hide";
+    } else {
+      myslide_parent.getElementsByClassName("prev")[0].className =
+        myslide_parent
+          .getElementsByClassName("prev")[0]
+          .className.replace("link_hide", "");
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[carouselIndex - 1].style.display = "block";
+    dots[carouselIndex - 1].className += " active";
+  }
+  var sliderIndex = 1;
+  var carouselIndex = 1;
+  DisplaySlides(1, carouselIndex);
+</script>
+<!-- JavaScript structure for slider end -->
